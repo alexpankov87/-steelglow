@@ -478,3 +478,20 @@ header {
     font-size: 20px;
     color: var(--white-color);
 }
+
+.copy  {
+    background: #5fc65d;
+    display: flex;
+    justify-content: center;
+}
+
+.copy-right {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.copy-right > span {
+    font-size: 18px;
+    color: var(--white-color);
+}
