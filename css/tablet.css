@@ -1,0 +1,148 @@
+@media screen and (max-width: 1440px) {
+    .top-logos {
+        justify-content: space-around;
+    }
+
+    .img-slide {
+        width: 1440px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) { 
+
+    .top-logos {
+            justify-content: space-around;
+        }
+
+    .logo-sg {
+        margin-left: -80px;
+    }
+    
+    .img-slide {
+        width: 1060px;
+    }
+
+    .logo-fnd {
+        margin-right: -80px;
+    }
+
+    .contacts {
+        padding-left: 0px;
+        margin-top: -125px;
+    }
+
+    .slogan {
+        padding-left: 0px;
+    }
+    
+    .catalog-item {
+        width: 270px;
+        height: 270px;
+    }
+
+    .catalog-item > img {
+        width: 190px;
+    }
+
+    .phone-ordering>a {
+        margin-left: 35px;
+    }
+
+    .footer-contacts {
+        margin-left: 50px;
+    }
+
+    .footer-information {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-slide {
+            width: 750px;
+    }
+
+    .logo-sg {
+        margin-left: 0px;
+    }
+
+    .logo-fnd {
+        margin-right: 0px;
+    }
+
+    .contacts {
+        padding-left: 30px;
+        margin-top: -95px;
+    }
+
+    .about-us>p {
+        font-size: 30px;
+        padding-right: 80px;
+    }
+
+    .phone-contacts > img {
+        width: 62px;
+    }
+
+    .line-gradient {
+        width: 75%;
+    }
+
+    .slogan {
+        padding-left: 30px;
+        width: 720px;
+    }
+
+    .slogan > p {
+        font-size: 25px;
+    }
+
+    .block-list {
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .catalog-item {
+        width: 210px;
+        height: 210px;
+        margin-right: 15px;
+    }
+
+    .catalog-item>img {
+        width: 140px;
+        margin-left: 35px;
+    }
+
+   .title-item {
+       margin-top: 10px;
+       margin-left: 30px;
+   }
+  .phone-ordering>a {
+      margin-left: 40px;
+  }
+  
+    .phone-ordering>a>span {
+        font-size: 28px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-information {
+        margin-right: 0px;
+        margin-top: 0px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+    .footer-contacts {
+        margin-left: 60px;
+    }
+
+    .footer-title-firm {
+        margin-top: 57px;
+    }
+}
