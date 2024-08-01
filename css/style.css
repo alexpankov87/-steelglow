@@ -1,21 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url('https://steelglow.kz/css/fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('https://steelglow.kz/css/fonts/Montserrat-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat-Light';
-    src: url('https://steelglow.kz/css/fonts/Montserrat-Light.ttf') format('truetype');
-    font-weight: 300;
     font-style: normal;
 }
 
@@ -104,14 +92,18 @@
 *,
 *:after,
 *::before {
-    font-family: 'Montserrat-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     padding: 0;
     color: #000;
 }
 
+.light-font-text {
+    font-weight: 200;
+}
+
 body {
-    font-family: 'Montserrat-Regular', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -160,10 +152,17 @@ header {
     margin-left: 30px;
 }
 
+.logo-sg > img {
+    width: 300px;
+}
+
 .logo-fnd{
     margin-right: 30px;
 }
 
+.logo-fnd > img {
+    width: 300px;
+}
 
 .contacts {
     display: flex;
@@ -280,8 +279,8 @@ header {
 }
 
 .ecology > img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
  
 }
 
@@ -317,8 +316,8 @@ header {
 }
 
 .graphics > img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 .graphics > p {
     margin-left: 10px;
