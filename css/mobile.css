@@ -1,0 +1,284 @@
+@media screen and (max-width: 425px) {
+    body {
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+    .grid-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .top-logos {
+        justify-content: space-around;
+    }
+
+  .logo-sg>img {
+      width: 200px;
+  }
+
+  .logo-fnd>img {
+      width: 200px;
+  }
+
+  .img-slide {
+      width: 450px;
+  }
+
+  .phone-contacts {
+      margin-left: 10px;
+      display: flex;
+      align-items: center;
+  }
+
+  .phone-contacts>img {
+      width: 52px;
+  }
+
+  .contacts {
+      padding-left: 30px;
+      margin-top: -55px;
+  }
+
+  .about-us {
+      margin-left: 10px;
+  }
+
+    .about-us>p {
+        font-size: 26px;
+        padding-right: 20px;
+    }
+
+  .line-gradient {
+      width: 85%;
+  }
+
+  .slogan {
+      padding-left: 30px;
+      width: 400px;
+      margin-left: 10px;
+  }
+
+
+  .first-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      width: 390px;
+      margin-right: 0px;
+  }
+
+  .second-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      width: 390px;
+      margin-right: 0px;
+      margin-top: -10px;
+  }
+
+
+    .title-main-head>h1 {
+        color: #002300;
+        font-weight: 800;
+        font-size: 38px;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 300px;
+    }
+
+
+    .catalog-item {
+        width: 210px;
+        height: 210px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .phone-ordering>a>span {
+        font-size: 31px;
+    }
+
+    .footer-contacts {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .footer-information {
+        margin-right: 0px;
+        margin-top: 0px;
+        text-align: left;
+        margin-left: 30px;
+        width: 390px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .logo-sg>img {
+            width: 150px;
+        }
+
+    .logo-fnd>img {
+        width: 150px;
+    }
+
+    .img-slide {
+        width: 400px;
+    }
+
+    .slogan {
+        padding-left: 30px;
+        width: 362px;
+        margin-left: 10px;
+    }
+
+
+    .first-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        width: 350px;
+        margin-right: 0px;
+    }
+
+
+    .ecology>img {
+        width: 90px;
+        height: 90px;
+    }
+
+
+    .second-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        width: 350px;
+        margin-right: 0px;
+        margin-top: -10px;
+    }
+
+    .graphics>img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .title-main-head>h1 {
+        color: #002300;
+        font-weight: 800;
+        font-size: 34px;
+    }
+
+    .phone-ordering>a {
+        margin-left: 20px;
+    }
+
+    .phone-ordering>a>span {
+        font-size: 30px;
+    }
+
+    .footer-information {
+        width: 330px;
+    }
+
+    .about-us>p {
+        font-size: 24px;
+        padding-right: 20px;
+    }
+
+    .slogan>p {
+        font-size: 19px;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .img-slide {
+            width: 330px;
+        }
+
+    .contacts {
+        padding-left: 10px;
+        margin-top: -55px;
+    }
+
+    .slogan {
+        padding-left: 10px;
+        width: 322px;
+        margin-left: 10px;
+    }
+    
+    .first-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        width: 310px;
+        margin-right: 0px;
+    }
+
+    .ecology {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ecology>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ecology > p {
+        font-size: 14px;
+    }
+
+
+    .second-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        width: 310px;
+        margin-right: 0px;
+    }
+
+    .graphics {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .graphics>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .graphics>p {
+        font-size: 14px;
+    }
+
+
+   .title-main-head>h1 {
+    font-size: 29px;
+   }
+
+    .phone-ordering>a>span {
+        font-size: 27px;
+    }
+
+    .footer-information {
+        width: 290px;
+    }
+}
