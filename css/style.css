@@ -322,6 +322,7 @@ header {
 .graphics > p {
     margin-left: 10px;
     color: var(--white-color);
+    margin-block-end: 0px;
 }
 
 .graphics>p > span {
