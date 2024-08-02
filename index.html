@@ -168,7 +168,7 @@
                     <div class="form-subtitle">
                         <h3><strong>Быстрый способ обсудить детали</strong></h3>
                     </div>
-                    <form action="/mailsender.php" method="post" class="form-feedback" id="feedback-form">
+                    <form action="mailsender.php" method="post" class="form-feedback" id="feedback-form">
                         <div class="name-input">
                             <label for="feedback-name"><strong>Имя:</strong></label>
                             <input required type="text" id="feedback-name" name="feedback-name" placeholder="Введите ваши данные"
@@ -189,7 +189,7 @@
                         </label>
                         <div class="form-feedback-btn">
                             <input type="hidden" name="source_page" value="Главная">
-                            <button type="button" onclick="submitForm('feedback-form')">
+                            <button type="button" onclick="submitForm(this.form)">
                                 <strong>Отправить</strong>
                             </button>
                         </div>

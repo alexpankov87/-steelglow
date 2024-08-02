@@ -739,7 +739,7 @@ header {
 }
 
 .form-feedback-btn>button {
-    background-color: var(--white-color);
+    background-color: var(--green-color);
     margin-top: 10px;
     padding-left: 22px;
     margin-right: 48px;
@@ -758,8 +758,8 @@ header {
 }
 
 .form-feedback-btn>button:hover {
-    color: var(--white-color);
-    background-color: var(--green-color);
+    color: #000000b9;
+    background-color: var(--white-color);
 }
 
 .form-feedback-btn>button:hover .btn-text {
