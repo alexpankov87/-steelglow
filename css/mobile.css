@@ -117,6 +117,23 @@
         margin-left: 30px;
         width: 390px;
     }
+
+         .form-feedsback_bg {
+             margin-right: 0px;
+             width: 480px;
+         }
+    
+         .name-input>input {
+             width: 368px;
+         }
+    
+         .phone-input>input {
+             width: 368px;
+         }
+    
+         .email-input>input {
+             width: 398px;
+         }
 }
 
 
@@ -197,6 +214,43 @@
 
     .slogan>p {
         font-size: 19px;
+    }
+
+
+    .form-feedsback_bg {
+        width: 450px;
+    }
+
+    .name-input>label {
+        margin-left: 69px;
+    }
+
+    .name-input>input {
+        width: 330px;
+        margin-left: 70px;
+    }
+
+    .phone-input>input {
+        width: 330px;
+        margin-left: 70px;
+    }
+
+    .phone-input>label {
+        margin-left: 69px;
+    }
+
+    .email-input>label {
+        margin-left: 69px;
+    }
+
+    .email-input>input {
+        margin-left: 70px;
+        width: 376px;
+    }
+
+    .form-feedback-container-checkbox {
+        margin-left: 70px;
+        font-size: 12px;
     }
 
 }
@@ -280,5 +334,68 @@
 
     .footer-information {
         width: 290px;
+    }
+
+
+    .form-subtitle>h3 {
+
+        font-size: 16px;
+        line-height: 26px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .name-input>label {
+        margin-left: 30px;
+    }
+
+    .name-input>input {
+        width: 265px;
+        margin-left: 30px;
+    }
+
+    .phone-input>label {
+        margin-left: 30px;
+    }
+
+    .phone-input>input {
+        width: 265px;
+        margin-left: 30px;
+    }
+
+    .email-input>label {
+        margin-left: 30px;
+    }
+
+    .email-input>input {
+        width: 265px;
+        margin-left: 30px;
+    }
+
+    .form-feedback-btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 27px;
+    }
+
+    .form-feedback-container-checkbox {
+        margin-left: 60px;
+        font-size: 10px;
+    }
+
+    .form-feedsback_bg {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 120px;
+        width: 506px;
+        box-shadow: 0px 30px 30px rgb(0 0 0 / 56%);
+        border-radius: 5px;
+        margin-bottom: 0px;
+        height: 505px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 }
