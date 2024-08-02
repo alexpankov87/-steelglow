@@ -20,8 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $from_email = "deadwalkingday@gmail.com"; 
-    $to_email = "deadwalkingday@gmail.com"; 
+    $from_email = "info@steelglow.kz"; 
+    $to_email = "admin@steelglow.kz"; 
     $subject = 'Новая заявка с формы';
 
     $message = "<html><head><title>$subject</title></head><body>";
