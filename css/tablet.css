@@ -38,12 +38,17 @@
     }
     
     .catalog-item {
+        width: 350px;
+        height: 630px;
+    }
+
+    .catalog-item > img {
         width: 270px;
         height: 270px;
     }
 
-    .catalog-item > img {
-        width: 190px;
+    .btn-section-third .button_show_more {
+        margin-left: 35px;
     }
 
     .phone-ordering>a {
@@ -104,21 +109,37 @@
         flex-direction: column;
     }
 
+    .catalog {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+        justify-content: center;
+        align-content: center;
+    }
+
     .catalog-item {
-        width: 210px;
-        height: 210px;
+        width: 350px;
+        height: 570px;
         margin-right: 15px;
+        transition: height 0.5s ease;
     }
 
     .catalog-item>img {
-        width: 140px;
-        margin-left: 35px;
+        width: 250px;
+        margin-left: 0px;
+        height: 250px;
     }
 
    .title-item {
        margin-top: 10px;
        margin-left: 30px;
    }
+    .btn-section-third .button_show_more {
+        margin-left: 75px;
+    }
+   
   .phone-ordering>a {
       margin-left: 40px;
   }
