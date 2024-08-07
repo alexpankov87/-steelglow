@@ -383,16 +383,23 @@ header {
     padding-right: 50px;
 }
 
-.title-item > span {
+.title-item>span {
+    font-weight: 400;
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+.title-item > span > span {
     font-weight: 600;
     color: var(--white-color);
     font-size: 16px;
+    text-decoration: underline;
 }
 
 .title-item > p {
     margin-block-end: 0px;
     margin-block-start: 0px;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--white-color);
     font-size: 16px;
 }
